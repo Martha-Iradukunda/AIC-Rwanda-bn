@@ -1,0 +1,45 @@
+{
+  "name": "brand-backend",
+  "version": "1.0.0",
+  "description": "content soon...",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js --env=node --coverage",
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "jest": {
+    "transform": {},
+    "testEnvironment": "jest-environment-jsdom-sixteen"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blackd44/My-Brand-Backend-Benn-Dalton.git"
+  },
+  "author": "blackd44",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/blackd44/My-Brand-Backend-Benn-Dalton/issues"
+  },
+  "homepage": "https://github.com/blackd44/My-Brand-Backend-Benn-Dalton#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "joi": "^17.7.0",
+    "joi-password": "^4.0.0",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^6.8.2"
+  },
+  "devDependencies": {
+    "jest": "^29.3.1",
+    "jest-environment-jsdom-sixteen": "^2.0.0",
+    "jest-environment-node": "^29.3.1",
+    "morgan": "^1.10.0",
+    "supertest": "^6.3.3",
+    "swagger-jsdoc": "^6.2.7",
+    "swagger-ui-express": "^4.6.0"
+  }
+}
